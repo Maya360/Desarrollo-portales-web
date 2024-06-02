@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ut-8">
+    <title>Media, formulario y html semantico </title>
+</head>
+<body>
+    <H1>Media</H1>
+    <video controls>
+   <source src="https://www.w3wchools.com/html/movie.mp4"  type="video/mp4">
+   <source  src="https://www.w3wchools.com/html/movie.ogg" type="video/ogg">
+   
+</video>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UdjDKaZG7mo?si=0A8nYBp8ymyzuGfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<audio controls autoplay loop>
+    <source src="images/The Apex of the World.mp3" type="audio/mp3" >
+</audio>
+
+<h2>Formularios</h2>
+<form action="media.html" method="get">
+
+<label for="txtNombre">Nombre: </label>
+<input name="" type="text" placeholder="Nombre completo" required id="txtNombre">
+<br>
+<label for="txtemail">Correo</label>
+<input required id="txtemail" type="txtemail" name="email" placeholder="Correo electronico"/>
+
+<label for="txtPassword">Contraseña</label>
+<input type="password" name="txtContraseña" title="8 letras, 1 mayuscula, 1 unemro y un caracter especial"
+pattern="^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^\w\d\s:])([^\s]){8,16}$"/>
+<br>
+<label >Tema</label>
+
+
+<div>
+    <label for="opcDark">Dark</label>
+    <input type="radio" name="opcTema" value="Dark" id="opcDark">
+
+    <label for="opcLight">Light</label>
+    <input type="radio" name="opcTema" value="Light" id="opcLight">
+
+    <label for="opcRadio">Defined by OS</label>
+    <input type="radio" name="opcTema" value="Light" id="opcRadio">
+</div>
+
+
+<fieldset>
+<legend>Opciones</legend>
+<label for="chsharetofriends">Compartir con amigos</label>
+    <input type="checkbox" name="chsharetofriends" value="1">
+<br>
+    <label for="chsharetostrangers">Compartir con Desconocidos</label>
+    <input type="checkbox" name="chsharetostrangers" value="2">
+<br>
+    <label for="chsharetolit">Compartir con Lista de accesos</label>
+    <input type="checkbox" name="chsharetolit" value="3">
+    <br>
+</fieldset>
+
+<br>
+
+<label for="cmbCiudad">CIUDAD</label>
+<fieldset>
+
+    <select name="Ciudad" id="cmbCiudad">
+    <option value="1">Tegucigalpa</option>
+    <option value="2">Danli</option>
+    <option value="3">San pedro Sula</option>
+    <option value="4">Choluteca</option>
+    <option value="5">Santa Rosa de copan</option>
+    <option value=""6>Siguatepeque</option>
+    <option value="7">Trujillo</option>
+</select>
+</fieldset>
+
+<label for="txtBlog">Entrada de Blog</label>
+<br>
+<textarea name="BLOG" id="txtBlog" placeholder="Escribir un Blog" cols="88" rows="10"></textarea>
+
+
+<br>
+<button name="btnEnviar" type="submit">Enviar: </button>
+<button name="btnborrar" type="reset">Borrar: </button>
+<button name="btnundo" type="button">Boton: </button>
+<br>
+</form>
+
+
+
+
+</body>
+</html>

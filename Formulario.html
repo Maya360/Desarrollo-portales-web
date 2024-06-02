@@ -1,0 +1,147 @@
+<!--Alanis Michelle Espinoza Barahona
+    
+-->
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECURSOS HUMANOS</title>
+</head>
+<body>
+    <h1>RECURSOS HUMANOS</h1>
+    <fieldset>
+    <div>
+        <label for="txtIngreso">Fecha de Ingreso:</label>
+        <input name="fechaingreso" type="date" placeholder="Fecha de Ingreso" id="txtIngreso">
+        <label for="txtCargo">Cargo:</label>
+        <input name="ingreso" type="text" placeholder="Cargo" id="txtIngreso">
+        <br>
+        <br>
+        <label for="txtArea">Area:</label>
+        <input name="srea" type="text" placeholder="Area" id="txtArea">
+        <label for="txtUSU">Usuario Dana Cafe: </label>
+        <input name="usuario" type="text" placeholder="Usuario" id="txtUsuario">
+        <br>
+        <br>
+        <label for="txtcontra">Usuario Dana Cafe: </label>
+        <input name="contrañena" type="password" placeholder="Introduzca su contraseña" id="txtcontra" pattern="^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^\w\d\s:])([^\s]){8,16}$">
+        <br>
+        <br>
+    </fieldset>
+
+        <h2>Ficha de Datos</h2>
+        <h4>(Completar todos los datos)</h4>
+        
+        <h3><strong>DATOS PERSONALES</strong></h3>
+        <label for="txtNOMBRE1"> PRIMER NOMBRE:</label>
+        <input name="nombre1" type="text" placeholder="Primer Nombre"  required id="txtNOMBRE1">
+        <br>
+        <br>
+        <label for="txtNOMBRE2">SEGUNDO NOMBRE:</label>
+        <input name="nombre2" type="text" placeholder="Segundo Nombre"   id="txtNOMBRE2">
+        <br>
+        <br>
+        <label for="txtapellido1">APELLIDO PATERNO:</label>
+        <input name="apellido1" type="text" placeholder="apellido"  required id="txtapellido1">
+        <br>
+        <br>
+        <label for="txtapellido2">APELLIDO MATERNO:</label>
+        <input name="apellido2" type="text" placeholder="segundo apellido"   id="txtapellido2">
+        <br>
+        <br>
+
+        <fieldset>
+        <Div>     <label for="txtedad">Edad:</label>
+            <input name="edad" type="number" placeholder=""   id="edad">
+
+            <label for="Sexo">Sexo</label>
+            <label for="opcgenM">Masculino</label>
+            <input type="radio" name="opcgen" value="M" id="opcgenM">
+        
+            <label for="opcgenF">Femenino</label>
+            <input type="radio" name="opcgen" value="F" id="opcgenF">
+            <label for="txtbirth">Fecha de Nacimiento:</label>
+        <input name="fechanacimiento" type="date" placeholder="Fecha de Nacimiento" id="txtbirth">
+        <br>
+        
+        <label for="txtcedula">Cedula:</label>
+        <input name="cedula" type="number" placeholder="Cedula"   id="txtcedula">
+        <br>
+        <label for="txtnacionalidad">Nacionalidad:</label>
+        <input name="nacionalidad" type="text" placeholder="Nacionalidad"   id="txtnacionalidad">
+        <br>
+        <label for="txtcorreo">Correo electronico:</label>
+        <input name="email" type="email" placeholder="Correo electronico"   id="txtcorreo">
+        <br>
+        </Div>
+
+    </fieldset>
+    </div>
+    
+    <div>
+        <br>
+        <br>
+        <label for="txtdireccion">Direccion: </label>
+<br>
+<textarea name="Direccion" id="txtaddress" placeholder="Escribir su direccion completa" cols="88" rows="1"></textarea>
+
+<br>
+<br>
+<label for="txtdep">Departamento:</label>
+<input name="Departamento" type="text" placeholder="Departamento"   id="txtdep">
+<label for="txtprov">Provincia:</label>
+<input name="Provincia" type="text" placeholder="Provincia"   id="txtprov">
+<label for="txtdis">Distrito:</label>
+<input name="Distrito" type="text" placeholder="Distrito"   id="txtdis">
+<br>
+<br>
+<label for="txttelparticular">Telefono Particular:</label>
+<input name="Telefono particular" type="tel" placeholder="###"   id="txttelparticular">
+<label for="txttelpersonal">Telefono Personal:</label>
+<input name="Telefono Personal" type="tel" placeholder="###"   id="txttelpersonal">
+<br>
+<br>
+<label for="cmbEstadocivil">Estado Civil</label>
+<fieldset>
+
+    <select name="Estado Civil" id="cmbEstadocivil">
+    <option value="1">Casado</option>
+    <option value="2">Soltero</option>
+    <option value="3">Union Libre</option>
+    <option value="4">Divorciado</option>
+</select>
+</fieldset>
+<br>
+<br>
+<label for="txtcontacto">En caso de emergencia llamar a:</label>
+<input name="Contacto" type="text" placeholder="Nombre"   id="txtcontacto">
+<br>
+<br>
+<label for="txttelemergencia">Telefono de contacto:</label>
+<input name="Telefono de Emergencia" type="tel" placeholder="###"   id="txttelemergencia">
+<label for="txtparentesco">Parentesco:</label>
+<input name="Parentesco" type="text" placeholder="Parentesco"   id="txtparentesco">
+<br>
+<br>
+<label for="txtEnfermedades">Enfermedades y/o alergias que padece(indicar medicamentos si fuera necesario)</label>
+<br>
+<textarea name="enfermedades" id="txtEnfermedades" placeholder="" cols="88" rows="10"></textarea>
+<br>
+<br>
+<label for="txtsangre">Tipo Sanguineo:</label>
+<input name="Sangre" type="text" placeholder="Tipo sangre"   id="txtsangre">
+
+    </div>
+<br>
+    <br>
+<button name="btnEnviar" type="submit">Enviar: </button>
+<button name="btnborrar" type="reset">Borrar: </button>
+<br>
+<br>
+    <footer> Departamento de Recursos Humanos</footer>
+</body>
+
+
+</html>
